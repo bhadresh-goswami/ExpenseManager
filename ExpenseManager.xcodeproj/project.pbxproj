@@ -13,6 +13,8 @@
 		D7472B5E239E43A800F59E11 /* ExpenseManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7472B5C239E43A800F59E11 /* ExpenseManager.xcdatamodeld */; };
 		D7472B60239E43A800F59E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7472B5F239E43A800F59E11 /* Assets.xcassets */; };
 		D7472B63239E43A800F59E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7472B61239E43A800F59E11 /* LaunchScreen.storyboard */; };
+		D7472B6C239E493600F59E11 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7472B6B239E493600F59E11 /* SignUpViewController.swift */; };
+		D7472B6E239E496C00F59E11 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7472B6D239E496C00F59E11 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D7472B5F239E43A800F59E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7472B62239E43A800F59E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7472B64239E43A800F59E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7472B6B239E493600F59E11 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D7472B6D239E496C00F59E11 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		D7472B54239E43A700F59E11 /* ExpenseManager */ = {
 			isa = PBXGroup;
 			children = (
+				D7472B6A239E48D800F59E11 /* UserManage */,
 				D7472B55239E43A700F59E11 /* AppDelegate.swift */,
 				D7472B57239E43A800F59E11 /* ViewController.swift */,
 				D7472B59239E43A800F59E11 /* Main.storyboard */,
@@ -65,6 +70,15 @@
 				D7472B5C239E43A800F59E11 /* ExpenseManager.xcdatamodeld */,
 			);
 			path = ExpenseManager;
+			sourceTree = "<group>";
+		};
+		D7472B6A239E48D800F59E11 /* UserManage */ = {
+			isa = PBXGroup;
+			children = (
+				D7472B6B239E493600F59E11 /* SignUpViewController.swift */,
+				D7472B6D239E496C00F59E11 /* SignInViewController.swift */,
+			);
+			path = UserManage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 			files = (
 				D7472B58239E43A800F59E11 /* ViewController.swift in Sources */,
 				D7472B5E239E43A800F59E11 /* ExpenseManager.xcdatamodeld in Sources */,
+				D7472B6C239E493600F59E11 /* SignUpViewController.swift in Sources */,
+				D7472B6E239E496C00F59E11 /* SignInViewController.swift in Sources */,
 				D7472B56239E43A700F59E11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
